@@ -40,6 +40,11 @@ class Deck:
         return self.all_cards.pop()
 
 
+class Player:
+
+    def __init__(self):
+        self.all_cards = []
+
+
 new_deck = Deck()
 new_deck.shuffle()
-
